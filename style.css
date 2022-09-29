@@ -1,0 +1,66 @@
+* {
+	font-family: 'Play', sans-serif;
+}
+
+header {
+	width: 100%;
+	border-bottom: 3px solid #ccc;
+	position: fixed;
+	z-index: 1;
+}
+
+.navbar-brand {
+	width: 100px;
+}
+
+.navbar-brand img {
+	width: 100%;
+
+}
+
+.hero {
+	height: 80vh;
+	background-image: url('../img/header-background.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hero-content {
+	width: 50%;
+	text-align: center;
+	position: relative;
+	top: 45%;
+	left: 25%;
+	
+}
+
+.card {
+	transition: box-shadow .5s ease-in-out;
+}
+
+.card:hover {
+	box-shadow: 12px 12px 2px 1px rgba(0,0,0,0.1);
+}
+
+img {
+	width: 100%;
+	transition: width .5s ease-in-out;
+}
+
+.img-container img:hover {
+	width: 80%;
+}
+
+.social-links {
+	text-decoration: none;
+}
+
+.social-links a {
+	margin: 0 3px;
+}
+
+.fa {
+	font-size: 17px;
+	color: #fff;
+}
